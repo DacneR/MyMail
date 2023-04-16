@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!--Logo-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/log"
+        android:layout_weight="4"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        >
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <!--Fin Logo-->
+
+    <!--Usuario-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_weight="1"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="@string/usu"
+            android:textSize="30sp"
+            android:gravity="center">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/usuario"
+            android:gravity="center"
+            android:inputType="number"
+
+            android:id="@+id/Txtusuario">
+
+        </EditText>
+
+    </LinearLayout>
+    <!--Fin Usuario-->
+
+    <!--Pin-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_weight="1"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="@string/pi"
+            android:textSize="30sp"
+            android:gravity="center">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/pin"
+            android:gravity="center"
+            android:inputType="number"
+
+            android:id="@+id/Txtpin">
+
+        </EditText>
+
+    </LinearLayout>
+    <!--Fin Pin-->
+
+    <!--Botones-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+
+            android:backgroundTint="@color/Green"
+
+            android:id="@+id/btnLoguear">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Registrar"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+
+            android:backgroundTint="@color/Green"
+
+            android:id="@+id/btnRegistrar">
+
+        </Button>
+
+    </LinearLayout>
+    <!--Fin Botones-->
+
+
+
+</LinearLayout>

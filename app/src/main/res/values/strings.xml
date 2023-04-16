@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyMail</string>
+
+    <string name="usu">Usuario</string>
+    <string name="usuario">Ingrese su usuario aquí</string>
+
+    <string name="pi">PIN</string>
+    <string name="pin">Ingrese su pin aquí</string>
+
+    <string name="cc">Cédula</string>
+    <string name="cedula">Ingrese su cédula aquí</string>
+
+    <string name="car">Cargo</string>
+    <string name="cargo">Ingrese su cargo aquí</string>
+
+    <string name="login">Iniciar sesion</string>
+    <string name="Registrar">Registrarse</string>
+
+    <string name="nn">XXXXXXXXXXXXXXX</string>
+
+    <string name="title">Ingrese el titulo</string>
+    <string name="color">Ingrese el color</string>
+    <string name="descr">Ingrese la descripción</string>
+    <string name="comen">Ingrese el comentario</string>
+
+    <string name="insert">Insertar</string>
+    <string name="clear">¡Limpiar BD!</string>
+
+    <string name="activo">Activo</string>
+    <string name="inactivo">Inactivo</string>
+
+    <string name="comentario">Comentario</string>
+    <string name="titulo">Titulo</string>
+</resources>
